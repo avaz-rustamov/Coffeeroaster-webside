@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Regular.woff2") format("woff2"),
+    url("../fonts/Barlow-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces 9pt";
+  src: url("../fonts/Fraunces9pt-Black.woff2") format("woff2"),
+    url("../fonts/Fraunces9pt-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Barlow";
+  font-size: 16px;
+  background-color: #F2F2F2;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 33px;
+
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+.hero-img {
+  padding-left: 86px;
+  background-image: url(../img/hero-img.png);
+  width: 1280px;
+  background-size: cover;
+  padding-bottom: 100px;
+  border-radius: 15px;
+
+}
+.header {;
+}
+
+.hero-header {
+  font-family: Fraunces;
+  padding: 117px 702px 0px 0px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+}
+
+.hero-text {
+  padding-right: 750px;
+  margin-bottom: 56px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.hero-link-item {
+  width: 217px;
+  height: 56px;
+  padding: 15px 31px 16px 31px;
+  background:  #0E8784;
+  border-radius: 6px;
+}
+.hero-link  {
+text-decoration: none;
+font-family: Fraunces;
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 35px;
+text-align: center;
+
+color: #FEFCF7;
+}
