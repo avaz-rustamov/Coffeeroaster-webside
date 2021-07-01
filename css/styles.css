@@ -256,7 +256,10 @@ html {
   padding: 0;
   margin-left: auto;
   background-color: #fff;
-  ;
+}
+
+.form-arrow--button:active {
+  rotate: 180deg;
 }
 
 .order-list {
@@ -324,4 +327,54 @@ html {
 .order__heading--list {
   margin-top: 0;
   margin-bottom: 24px;
+}
+
+.order-latter {
+  margin-bottom: 40px;
+}
+
+.order-latter--wrapper {
+  background-color: #333D4B;
+  width: 730px;
+  padding: 47px 64px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.order__summary {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.5;
+
+}
+
+.order-summary__text {
+  font-family: "Fraunces 9pt", "Times New Roman", "serif";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.summary-green {
+  color: #0E8784;
+
+}
+
+.button-plan--form {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+  background: #E2DEDB;
+  border-radius: 6px;
+  padding: 15px 35px;
+  color: #FEFCF7;
+  font-family: "Fraunces 9pt",
+  "Times New Roman",
+  "serif";
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
 }
