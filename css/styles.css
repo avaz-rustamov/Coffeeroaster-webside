@@ -19,7 +19,9 @@
 body {
   font-family: "Barlow";
   font-size: 16px;
+  line-height: 26px;
   background-color: #F2F2F2;
+  ;
 }
 
 html {
@@ -80,7 +82,8 @@ html {
   border-radius: 15px;
 
 }
-.header {;
+.header {
+  padding-bottom: 43px;
 }
 
 .hero-header {
@@ -113,13 +116,39 @@ html {
   border-radius: 6px;
 }
 .hero-link  {
-text-decoration: none;
-font-family: Fraunces;
-font-style: normal;
-font-weight: 900;
-font-size: 18px;
-line-height: 35px;
-text-align: center;
+  text-decoration: none;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+  color: #FEFCF7;
+}
 
-color: #FEFCF7;
+/* ABOUT */
+.about-hero {
+  background-image: url(../img/about-hero-bg.png);
+  background-size: center center;
+  padding-top: 137px;
+  padding-bottom: 137px;
+  padding-left: 85px;
+
+
+}
+
+
+
+.about__headeing {
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-top: 0;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.about__text {
+    color: #FEFCF7;
+    width: 445px;
 }
