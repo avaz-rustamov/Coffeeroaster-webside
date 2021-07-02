@@ -119,21 +119,17 @@ html {
   mix-blend-mode: normal;
   opacity: 0.8;
 }
-.hero-link-item {
-  width: 217px;
-  height: 56px;
-  padding: 15px 31px 16px 31px;
-  background:  #0E8784;
-  border-radius: 6px;
-}
+
 .hero-link  {
+  font-family: "Fraunces 9pt", "Times New Roman", "serif";
+  padding: 15px 31px;
   text-decoration: none;
-  font-family: Fraunces;
-  font-style: normal;
   font-weight: 900;
   font-size: 18px;
   line-height: 35px;
-  text-align: center;
+  background:  #0E8784;
+  border-radius: 6px;
+  /* text-align: center; */
   color: #FEFCF7;
 }
 
@@ -270,6 +266,7 @@ html {
 }
 .site-order--wrapper {
   display: none;
+  margin-bottom: 88px;
 }
 
 .site-order--open {
