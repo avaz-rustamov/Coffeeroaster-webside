@@ -135,8 +135,6 @@ html {
 
 
 /* COLLECTION  */
-.collection {}
-
 .collection-wrapper {
   background-image: url(../img/collection-bg-img.png);
   background-position: calc(50%)  150px;
@@ -163,7 +161,9 @@ html {
   margin-bottom: 70px;
 }
 
+
 .collection__heading {
+  word-break: break-all;
   margin-top: 0;
   margin-bottom: 24px;
 }
@@ -172,6 +172,76 @@ html {
   margin: 0;
 }
 
+
+
+/* FEATURE  */
+.feature {
+  padding-bottom: 300px;
+
+}
+
+.feature-wrapper {
+  background-color: #282F38;
+  padding-bottom: 320px;
+  padding-top: 112px;
+}
+
+.feature__heading {
+  font-family: "Fraunces 9pt", "Times New Roman", "Serif";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FEFCF7;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.feature__text {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  opacity: 0.8;
+  width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.feature__list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.feature__item {
+
+  background-size: calc(50%);
+  background-color: #0E8784;
+  width: 350px;
+  padding: 200px 48px 48px 48px;
+  border-radius: 8px;
+}
+
+
+
+.feature__heading--list {
+
+}
+
+.feature__heading--list::before {
+  content: "";
+  display: block;
+  background-image: url(../img/feature-coffee-bean.png);
+  background-repeat: no-repeat;
+  background-position: calc(50%) -10px;
+  padding: 72px;
+}
+
+.feature__text--list {
+
+}
 /* FOOTER */
 .site-footer {
   display: flex;
@@ -413,4 +483,32 @@ html {
   font-weight: 900;
   font-size: 18px;
   line-height: 25px;
+}
+
+/* MEDIA  */
+@media only screen and (max-width: 900px) {
+
+  .collection-item {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .collection-list {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .collection__text {
+    line-height: 25px;
+    font-size: 15px;
+  }
+
+  .collection__img {
+    margin-bottom: 0;
+  }
+
+  .colllection-content {
+    width: 282px;
+  }
 }
