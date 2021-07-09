@@ -498,6 +498,8 @@ html {
 
   .collection-list {
     flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
 
   }
 
@@ -518,11 +520,38 @@ html {
   .collection-wrapper {
     background-size: 650px;
   }
+
+  .hero-img {
+    padding-left: 58px;
+    background-image: url(../img/hero-img.png);
+    width: 80%;
+    background-size: cover;
+
+
+  }
+
+  .hero-text {
+    padding-right: 30%;
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FEFCF7;
+  }
+
+  .hero-header {
+    font-family: "Fraunces", "Times New Roman", "Serif";
+    padding-right: 35%;
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FEFCF7;
+  }
 }
 
 @media only screen and (max-width: 500px) {
     .collection-list {
-      /* flex-direction: row; */
 
     }
 
@@ -536,9 +565,9 @@ html {
         margin-bottom: 48px;
       }
 
-        .collection__img {
-          margin-bottom: 24px;
-        }
+      .collection__img {
+       margin-bottom: 24px;
+       }
 
       .collection-wrapper {
        background-size: 330px;
