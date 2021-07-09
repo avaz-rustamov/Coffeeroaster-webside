@@ -572,4 +572,16 @@ html {
       .collection-wrapper {
        background-size: 330px;
         }
+
+        .hero-text {
+          padding-right: 0;
+          margin-bottom: 40px;
+
+        }
+
+        .hero-header {
+          padding-right: 0;
+          margin-bottom: 32px;
+
+        }
 }
