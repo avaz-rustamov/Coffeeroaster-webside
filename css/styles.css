@@ -539,4 +539,8 @@ html {
         .collection__img {
           margin-bottom: 24px;
         }
+
+      .collection-wrapper {
+       background-size: 375px;
+        }
 }
