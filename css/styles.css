@@ -90,6 +90,23 @@ html {
   margin-left: auto;
 }
 
+  .nav-togler {
+    position: absolute;
+    background-image: linear-gradient(180deg, rgba(254, 252, 247, 0.50) 10.14%, #FEFCF7 66.08%);
+    height: calc(100vh -90px);
+
+  }
+
+  .togler-links {
+    list-style: none;
+  }
+
+  .togler-item {}
+
+  .nav-link {
+    text-transform: capitalize;
+  }
+
 .hero-img {
   padding-left: 86px;
   background-image: url(../img/hero-img.png);
