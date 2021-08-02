@@ -282,11 +282,11 @@ html {
   fill: #FEFCF7
 }
 .media-link--footer:hover {
-  fill: #fefcf7d3
+  fill: #c06f61
 }
 .media-link--footer:active {
-  fill: #fefcf786
-}
+  fill: #c06f61b7
+  }
 
 /* ABOUT PAGE */
 .about-hero {
@@ -385,6 +385,79 @@ html {
   color: #FEFCF7;
   opacity: .8;;
 
+}
+
+
+/* HEADQUARTERS  */
+.headquarters {
+  padding: 170px 165px;
+}
+
+.headquarters-text {
+  font-family: "Fraunces 9pt","Arial", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 72px;
+}
+
+.headquarters__list {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  margin-left: -95px;
+  min-width: 285px;
+}
+
+.headquarters__item {
+  margin-left: 95px;
+}
+
+.headquarters__item--uk::before {
+  content: "";
+  background-image: url(../img/uk-img.png);
+  display: block;
+  width: 41px;
+  height: 49px;
+  margin-bottom: 45px;
+}
+
+.headquarters__item--canada::before {
+  content: "";
+  background-image: url(../img/canada-img.png);
+  display: block;
+  width: 51px;
+  height: 50px;
+  margin-bottom: 45px;
+}
+.headquarters__item--australia::before {
+  content: "";
+  background-image: url(../img/australia-img.png);
+  display: block;
+  width: 49px;
+  height: 44px;
+  margin-bottom: 45px;
+}
+
+.headquarters__heading {
+  font-family: "Fraunces 9pt","Arial", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: var(--heading-color);
+  margin-bottom: 24px;
+}
+
+.headquarter__address {
+  color: var(--heading-color);
+  opacity: 0.8;
+}
+
+.headquarters__phone {
+  color: var(--heading-color);
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 /* PLAN */
