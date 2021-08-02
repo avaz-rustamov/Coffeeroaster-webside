@@ -342,6 +342,51 @@ html {
   opacity: 0.8;
 }
 
+/* QUALITY  */
+.quality {
+
+}
+
+.quality-wrapper {
+    position: relative;
+
+  background-color: #2C343E;
+  padding: 88px 85px 176px;
+
+}
+
+.quality-content {
+  width: 540px;
+}
+
+.quality-content::before {
+  position: absolute;
+    content: "";
+    background-image: url(../img/quality-img.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 445px;
+    height: 474px;
+    right: 80px;
+    top: -100px;
+}
+
+.quality__heading {
+  font-family: "Fraunces 9pt", "Arial", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.quality__text {
+  color: #FEFCF7;
+  opacity: .8;;
+
+}
+
 /* PLAN */
 .hero-plan {
   background-image: url(../img/plan-bg-hero.png);
