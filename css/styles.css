@@ -1,3 +1,7 @@
+:root {
+  --heading-color: #333D4B;
+}
+
 @font-face {
   font-family: "Barlow";
   src: url("../fonts/Barlow-Regular.woff2") format("woff2"),
@@ -17,7 +21,7 @@
 }
 
 body {
-  font-family: "Barlow";
+  font-family: "Barlow","Arial", sans-serif;
   font-size: 16px;
   line-height: 26px;
   background-color: #fff;
@@ -284,7 +288,7 @@ html {
   fill: #fefcf786
 }
 
-/* ABOUT */
+/* ABOUT PAGE */
 .about-hero {
   background-image: url(../img/about-hero-bg.png);
   background-size: center center;
@@ -309,6 +313,34 @@ html {
     width: 445px;
 }
 
+.site-commitment {
+  padding: 170px 87px 250px;
+}
+
+.commitment {
+  display: flex;
+  align-items: center;
+}
+
+.commitment-content {
+  max-width: 540px;
+  margin-left: 125px;
+}
+
+.commintment__heading {
+  font-family: "Fraunces 9pt", "Arial", sans-serif;
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--heading-color);
+
+}
+
+.commitment__text {
+  color: var(--heading-color);
+  opacity: 0.8;
+}
 
 /* PLAN */
 .hero-plan {
