@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@import 'variables'
+@import 'variables';
+@import '../all-blocks/all-blocks';
 body {
   background-color: dimgrey;
   font-weight: normal;
